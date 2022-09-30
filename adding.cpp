@@ -4,6 +4,7 @@
 void main()
 {
   int a,b,c;
+  clrscr();   //to remove the last output of the last code compiled from the user screen
   cout<<"Enter first number: ";
   cin>>a;
   cout<<"Enter second number: ";
