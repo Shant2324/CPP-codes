@@ -1,14 +1,12 @@
-#include<iostream.h>
-#include<conio.h>
-void main()
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
 {
-  int r;
-  float pi, A;
-  clrscr();  
-  pi=3.14
+  float r,A;
   cout<<"Enter the radius of the circle: ";
   cin>>r;
-  A=2*pi*r;
+  A=M_PI*r*r;
   cout<<"Area of the circle is: "<<A;
-  getch();
+  return 0;
 }
