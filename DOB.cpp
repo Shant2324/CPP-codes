@@ -9,6 +9,6 @@ void main()
   cout<<"Enter your age: ";
   cin>>Agr;
   BrtYr=Crntyr-Age;
-  cout<<"You was born in Year: "<<Age;
+  cout<<"You was born in Year: "<<BrtYr;
   getch();
 }
