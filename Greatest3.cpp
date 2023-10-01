@@ -10,15 +10,12 @@ void main()
   cin>>b;
   cout<<"Enter third number: ";
   cin>>c;
-  if a>b:
-    if a>c:
-      cout<<"The greater number is: "<<a;
-    else:
-      cout<<"The greater number is: "<<c;
-  else:
-    if b>c:
-      cout<<"The greater number is: "<<b;
-    else:
-      cout<<"The greater number is: "<<c;
+ if (a >= b && a >= c) {
+        cout << a << " is the greatest.";
+    } else if (b >= a && num2 >= num3) {
+        cout << b << " is the greatest.";
+    } else {
+        cout << c << " is the greatest.";
+    }
   getch();
 }
